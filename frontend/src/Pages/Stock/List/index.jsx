@@ -95,7 +95,7 @@ const ListStock = () => {
       },
     });
     userList.current = data.user.filter(
-      (usr) => usr.branch === "Goa" && usr.status === "active"
+      (usr) => usr.branch === "San Jose" && usr.status === "active"
     );
     const usersEmail = userList.current.map((user) => user.email);
     setEmailList(usersEmail);
@@ -116,7 +116,7 @@ const ListStock = () => {
     await axiosSecure.post(
       "/assignedProduct",
       {
-        branch: "Goa",
+        branch: "San Jose",
         user: selectedUserId,
         product: selectedStockId,
       },

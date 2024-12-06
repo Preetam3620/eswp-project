@@ -13,8 +13,8 @@ const productSchema = new mongoose.Schema(
     branch: {
       type: String,
       required: [true, "please provide a branch name"],
-      enum: ["Goa", "Dhaka", "Sylhet"],
-      default: "Goa",
+      enum: ["San Jose", "New York", "Ohio"],
+      default: "San Jose",
     },
     dateOfPurchase: {
       type: Date,

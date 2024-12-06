@@ -148,7 +148,7 @@ const CreateTicket = () => {
                                 <option value="">Select a category</option>
                                 <option value="Technical">Technical</option>
                                 <option value="Billing">Billing</option>
-                                <option value="Feature Request">Feature Request</option>
+                                <option value="Request">Request</option>
                                 <option value="Other">Other</option>
                             </Form.Control>
                         </Form.Group>
