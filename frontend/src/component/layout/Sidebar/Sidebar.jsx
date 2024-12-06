@@ -57,12 +57,15 @@ const Sidebar = ({ collapsed, setCollapsed }) => {
 
   return (
     <Sider width={250} collapsible collapsed={collapsed} onCollapse={setCollapsed}>
-      <div className={`logo-container ${collapsed ? 'collapsed' : ''}`}>
-        <img
+      <div className={`logo-container ${collapsed ? 'collapsed' : ''}`}
+      style={{ color: 'white', fontSize: '34px', fontFamily: 'Roboto'  }}
+      >
+        {/* <img
           src={collapsed ? logoSmall : logo}
           alt="Logo"
           className="logo"
-        />
+        /> */}
+        T I C K E T E R
       </div>
       <Menu
         theme="dark"

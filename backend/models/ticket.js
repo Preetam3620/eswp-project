@@ -13,7 +13,7 @@ const ticketSchema = new mongoose.Schema({
     category: {
         type: String,
         required: true,
-        enum: ['Technical', 'Billing', 'Feature Request', 'Other']
+        enum: ['Technical', 'Billing', 'Request', 'Other']
     },
     priority: {
         type: String,

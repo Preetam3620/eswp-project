@@ -208,9 +208,9 @@ const AddUser = () => {
                       <option value="" disabled hidden>
                         Select
                       </option>
-                      <option value="Dhaka">Dhaka</option>
-                      <option value="Goa">Goa</option>
-                      <option value="Sylhet">Sylhet</option>
+                      <option value="New York">New York</option>
+                      <option value="San Jose">San Jose</option>
+                      <option value="Ohio">Ohio</option>
                     </Form.Select>
                     <label htmlFor="floatingSelect">Select a branch</label>
                     <div className="invalid-feedback">

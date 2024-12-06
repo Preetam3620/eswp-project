@@ -53,7 +53,7 @@ const AccessoriesFormContainer = () => {
                     "/product",
                     {
                       productCategory: "Accessories",
-                      branch: "Goa",
+                      branch: "San Jose",
                       productType: values.accessoriesType,
                       accessoriesName: values.accessoriesName,
                       serialNumber: values.serialNumber,
